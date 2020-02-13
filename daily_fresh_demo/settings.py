@@ -1,7 +1,7 @@
-import os,sys
+import os, sys
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0,os.path.join(BASE_DIR,'apps'))
+sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 
 SECRET_KEY = 'uey!i4x26n!$d-73cs%blri)09#xfud_e361ne2h(#s2uj7)l!'
 
@@ -22,7 +22,7 @@ INSTALLED_APPS = [
     'df_user',
     'df_order',
 
-    'tinymce',  # 使用富文本编辑框要在settings文件中安装
+    # 'tinymce',  # 使用富文本编辑框要在settings文件中安装
 ]
 
 MIDDLEWARE = [
@@ -57,9 +57,17 @@ TEMPLATES = [
 WSGI_APPLICATION = 'daily_fresh_demo.wsgi.application'
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    # },
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'daily_fresh',
+        'USER': 'root',
+        'PASSWORD': '132132qq',
+        'HOST': 'localhost',  # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
     },
     'OPTIONS': {
         'TIMEOUT': 20,
@@ -100,7 +108,7 @@ STATICFILES_DIRS = [
 
 MEDIA_URL = '/media/'
 # 设置上传文件的路径
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')   # 指定根目录
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # 指定根目录
 
 # 富文本编辑框的使用配置
 TINYMCE_DEFAULT_CONFIG = {
