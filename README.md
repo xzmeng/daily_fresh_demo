@@ -19,12 +19,18 @@
 
 ### 数据库配置
 #### 以下所有命令都是在项目根目录执行
-进入mysql命令行, 创建数据库
+#### 如果使用windows，并且项目在D:\毕设\daily_fresh_demo保存
+#### 使用以下命令切换到项目根目录
+
+    D:
+    cd D:\毕设\daily_fresh_demo
     
-    $ mysql -uroot -p
+进入mysql命令行, 创建数据库（假设你用户名为root，密码为123456)
+    
+    $ mysql -uroot -p123456
     mysql> create database daily_fresh;
 
-修改daily_fresh_deme/settings.py中的DATABASE
+修改daily_fresh_deme/settings.py中的DATABASE(假设你用户名为root，密码为root)
 
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -39,7 +45,7 @@
 
     python manage.py migrate
     
-插入测试数据
+插入测试数据(注意插入顺序不能颠倒)
     
     $ mysql -uroot -p
     mysql> use daily_fresh;
@@ -50,7 +56,7 @@
 
 终端下执行:
 
-<code>./python manage.py createsuperuser</code>
+    python manage.py createsuperuser
 
 然后输入相应的超级用户名以及密码，邮箱即可。
 
@@ -58,7 +64,7 @@
 
 终端下执行:
 
-<code>./python manage.py runserver</code>
+    python manage.py runserver
 
 浏览器打开: <code>http://127.0.0.1</code> 即可进入普通用户入口
 

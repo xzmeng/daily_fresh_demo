@@ -2,74 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45668937-8df2-4ece-9cfa-fd4649cb4a1c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/daily_fresh_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/daily_fresh_demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/df_cart/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/df_cart/migrations/0002_auto_20181218_1200.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/df_cart/migrations/0003_auto_20190427_2158.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/df_goods/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/df_goods/migrations/0002_auto_20181218_1200.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/df_goods/migrations/0003_auto_20190427_2158.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/df_order/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/df_order/migrations/0002_auto_20181218_1200.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/df_user/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/df_user/migrations/0002_auto_20180607_2151.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/df_user/migrations/0003_goodsbrowser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/df_user/migrations/0004_auto_20181218_1200.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/df_user/migrations/0005_goodsbrowser_browser_time.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/df_user/migrations/0006_auto_20190427_2158.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/utils/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/utils/goods_reco.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_fresh_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_fresh_demo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods001_gxe2R45.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods001_gxe2R45.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods002_MDWYzFU.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods002_MDWYzFU.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods003_I10VrSC.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods003_I10VrSC.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods003_QjVxM2e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods003_QjVxM2e.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods005.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods005_HkX6imN.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods005_HkX6imN.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods006.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods007.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods009.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods009_1Y22XAV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods009_1Y22XAV.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods009_1Y22XAV_Xkxl6mq.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods009_1Y22XAV_Xkxl6mq.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods009_2qlBjR9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods009_2qlBjR9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods009_ECGyaM2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods009_ECGyaM2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods009_Jq7Dk5Y.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods009_Jq7Dk5Y.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods009_Jq7Dk5Y_S2Psj5b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods009_Jq7Dk5Y_S2Psj5b.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods010.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods010_sCLUSfI.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods010_sCLUSfI.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods012.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods012_YqqLqZ2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods012_YqqLqZ2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods012_fUad9Io.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods012_fUad9Io.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods013.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods013.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods013_3Nynaeh.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods013_3Nynaeh.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods017.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods017.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods018.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods018.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods018_5ezSBcV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods018_5ezSBcV.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods019.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods019.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods019_KWeEVX7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods019_KWeEVX7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods020.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods020.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods020_SmRaQgj.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods020_SmRaQgj.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods021.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods021.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods021_HMsKKDV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods021_HMsKKDV.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods_detail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods_detail.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/goods_detail_MMB8vJ4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/goods_detail_MMB8vJ4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/mmexport1533352807527.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/mmexport1533352807527.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/df_goods/image/2019/05/v2-2d45613b0fb8cdd36f53c3b31d0c6ee8_hd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/df_goods/image/2020/02/v2-2d45613b0fb8cdd36f53c3b31d0c6ee8_hd.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/df_goods_goodsinfo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/df_goods_goodsinfo.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/df_goods_typeinfo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/df_goods_typeinfo.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/df_order_orderinfo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/df_order_orderinfo.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/df_user_goodsbrowser.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/df_user_goodsbrowser.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/df_user_userinfo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/df_user_userinfo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/df_cart_cartinfo.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/df_order_orderdetailinfo.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/df_order_orderinfo.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/df_user_goodsbrowser.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/df_user_userinfo.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -478,6 +418,8 @@
       <updated>1528115011014</updated>
       <workItem from="1578640312367" duration="3601000" />
       <workItem from="1581572049147" duration="7378000" />
+      <workItem from="1581584397552" duration="322000" />
+      <workItem from="1581866392484" duration="1050000" />
     </task>
     <servers />
   </component>
@@ -544,10 +486,10 @@
       <screen x="0" y="23" width="1280" height="738" />
     </state>
     <state x="576" y="224" key="com.intellij.ide.util.TipDialog/0.23.1280.738@0.23.1280.738" timestamp="1581572049206" />
-    <state x="568" y="85" width="670" height="676" key="search.everywhere.popup" timestamp="1581574694264">
+    <state x="568" y="85" width="670" height="676" key="search.everywhere.popup" timestamp="1581867532019">
       <screen x="0" y="23" width="1280" height="738" />
     </state>
-    <state x="568" y="85" width="670" height="676" key="search.everywhere.popup/0.23.1280.738@0.23.1280.738" timestamp="1581574694264" />
+    <state x="568" y="85" width="670" height="676" key="search.everywhere.popup/0.23.1280.738@0.23.1280.738" timestamp="1581867532019" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/daily_fresh_demo$settings.coverage" NAME="settings Coverage Results" MODIFIED="1578640768851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/daily_fresh_demo" />
