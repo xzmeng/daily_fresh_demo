@@ -1,9 +1,11 @@
 from django.db import transaction
 from django.http import JsonResponse
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, HttpResponse, redirect
 
 from datetime import datetime
 from decimal import Decimal
+
+from django.urls import reverse
 
 from .models import OrderInfo, OrderDetailInfo
 from df_cart.models import CartInfo
@@ -93,3 +95,18 @@ def order_handle(request):
 @user_decorator.login
 def pay(request):
     pass
+
+
+@user_decorator.login
+def order_again(request, pk):
+    orderinfo = OrderInfo.objects.get(oid=pk)
+    uid = request.session['user_id']
+
+    for order_detail in orderinfo.orderdetailinfo_set.all():
+        cart = CartInfo()
+        cart.user_id = uid
+        cart.goods_id = order_detail.goods_id
+        cart.count = order_detail.count
+        cart.save()
+    return redirect(reverse('df_cart:cart'))
+
